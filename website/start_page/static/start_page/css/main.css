@@ -4,6 +4,7 @@
 }
 
 body {
+  position: relative;
   z-index: -50;
   margin: 0;
   padding: 0;
@@ -19,17 +20,6 @@ body {
   position: absolute;
   z-index: -48;
   top: 0;
-}
-
-#svg_bg_1:after {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  background-color: rgba(0, 128, 0, 0.3);
 }
 
 .nav_wrapper {
@@ -59,41 +49,42 @@ body {
   color: white;
 }
 
-.why_us {
+.why_us_section {
   margin-top: 30vw;
   position: relative;
 }
 
-.why_us .table {
+.why_us_section .table {
   display: block;
   position: inherit;
   text-align: center;
   margin: 0 auto;
+  color: #393838;
   width: 50vw;
   max-width: 350px;
   border-radius: .3rem;
   background-color: #ffc02d;
 }
 
-.why_us .table .icon {
+.why_us_section .table .icon {
   padding-top: 1rem;
   width: 40%;
 }
 
-.why_us .table .title {
+.why_us_section .table .title {
   margin-top: 0;
   font-family: 'general-medium';
   font-size: 15px;
 }
 
-.why_us .table .content {
+.why_us_section .table .content {
   font-family: 'general-light';
   font-size: 13px;
   padding: 0 .5rem;
   padding-bottom: 30%;
 }
 
-.why_us .table .table_button {
+.why_us_section .table .table_button {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -112,8 +103,153 @@ body {
   z-index: 2;
 }
 
-.our_services_title {
+.our_services_section {
+  background-color: white;
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+.our_services_section .our_services_title {
   font-family: 'general-medium';
+  text-align: center;
+}
+
+.our_services_section .services_grid {
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.our_services_section .services_grid .table {
+  display: block;
+  position: inherit;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  width: 60vw;
+  max-width: 350px;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  background-color: #4b744a;
+}
+
+.our_services_section .services_grid .table .icon {
+  padding-top: 1rem;
+  width: 40%;
+}
+
+.our_services_section .services_grid .table .title {
+  margin-top: 0;
+  font-family: 'general-medium';
+  font-size: 15px;
+}
+
+.our_services_section .services_grid .table .content {
+  font-family: 'general-light';
+  font-size: 13px;
+  padding: 0 .5rem;
+  padding-bottom: 30%;
+}
+
+.our_services_section .services_grid .table .table_button {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFC02D;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  width: 8rem;
+  height: 2rem;
+}
+
+.a3tmad_section {
+  padding: 1rem 0;
+  position: relative;
+  background-color: #393838;
+  color: white;
+  font-family: 'general-medium';
+}
+
+.a3tmad_section .row {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.a3tmad_section .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.a3tmad_section .col img {
+  width: 6rem;
+  padding-bottom: .5rem;
+}
+
+.a3tmad_section .col h3 {
+  margin: 0;
+  padding: .2rem 0;
+}
+
+.a3tmad_section .col-1 {
+  padding-right: 2rem;
+}
+
+.a3tmad_section .col-2 {
+  padding-left: 2rem;
+}
+
+.google_map_section {
+  width: 100%;
+  height: 20rem;
+  background-color: white;
+}
+
+.google_map_section .time {
+  margin: 0;
+  padding: 1rem 0;
+  font-family: 'general-medium';
+  color: #393838;
+  text-align: center;
+}
+
+.copy_right_section {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #03240B;
+  font-family: 'general-light';
+  font-size: 14px;
+  z-index: 2;
+}
+
+.fixed_section {
+  position: fixed;
+  bottom: 1.5rem;
+  width: 100%;
+}
+
+.fixed_section .call_us {
+  display: block;
+  width: 4rem;
+  margin-left: auto;
+  margin-right: .5rem;
   text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

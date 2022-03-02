@@ -22,9 +22,21 @@
 </header>
 
 <body>
-    <svg id="svg_bg_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 900"><defs><style>.a{fill:#fff;fill-rule:evenodd;}</style></defs><path class="a" d="M500,294.526c.361-.264-136.923,26.09-171.809-32.664-36.431-61.358-121.377-2.815-199.714-79.07-20.446-19.9-30.224-53.336-42.182-63.236C51.8,90.99,40.876,101.845,35.5,53.84,15.7-5.676,0,.157,0,.157V900H500V400Z" transform="translate(0 0)"/></svg>
+    <svg id="svg_bg_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 900">
+        <defs>
+            <style>
+                .a {
+                    fill: #fff;
+                    fill-rule: evenodd;
+                }
+            </style>
+        </defs>
+        <path class="a"
+            d="M500,294.526c.361-.264-136.923,26.09-171.809-32.664-36.431-61.358-121.377-2.815-199.714-79.07-20.446-19.9-30.224-53.336-42.182-63.236C51.8,90.99,40.876,101.845,35.5,53.84,15.7-5.676,0,.157,0,.157V900H500V400Z"
+            transform="translate(0 0)" />
+    </svg>
 
-    <section class="why_us">
+    <section class="why_us_section">
         <dev class="table">
             <img class="icon" src="{% static 'start_page/img/logo.svg' %}" alt="logo">
             <h1 class="title">لماذا مكتب المستشار عبدالمحسن؟</h1>
@@ -33,12 +45,80 @@
             <button class="button table_button">من نحن؟</button>
         </dev>
     </section>
-    
-    <span ></span>
+
     <img class="br_line" src="{% static 'start_page/img/br_line.svg' %}">
 
-    <section class="our_services">
+    <section class="our_services_section">
         <h2 class=our_services_title>خدماتنا</h2>
+        <dev class="services_grid">
+            <dev class="table">
+                <img class="icon" src="{% static 'start_page/img/our_services/icons/consulting.svg' %}" alt="logo">
+                <h1 class="title">إستشارات هندسية</h1>
+                <h2 class="content">استشارات في العديد من المجالات الهندسية</h2>
+                <button class="button table_button">اعرف المزيد</button>
+            </dev>
+            <dev class="table">
+                <img class="icon" src="{% static 'start_page/img/our_services/icons/supervision.svg' %}" alt="logo">
+                <h1 class="title">الإشراف الهندسي</h1>
+                <h2 class="content">الإشراف بمختلف اشكالة</h2>
+                <button class="button table_button">اعرف المزيد</button>
+            </dev>
+            <dev class="table">
+                <img class="icon" src="{% static 'start_page/img/our_services/icons/surveyor.svg' %}" alt="logo">
+                <h1 class="title">المساحة</h1>
+                <h2 class="content">العديد من خدمات المساحة</h2>
+                <button class="button table_button">اعرف المزيد</button>
+            </dev>
+            <dev class="table">
+                <img class="icon" src="{% static 'start_page/img/our_services/icons/license.svg' %}" alt="logo">
+                <h1 class="title">إصدار شهادة البناء</h1>
+                <h2 class="content">-</h2>
+                <button class="button table_button">اعرف المزيد</button>
+            </dev>
+            {% comment %} <dev class="table">
+                <img class="icon" src="{% static 'start_page/img/our_services/icons/consulting.svg' %}" alt="logo">
+                <h1 class="title">إستشارات هندسية</h1>
+                <h2 class="content">استشارات في العديد من المجالات الهندسية</h2>
+                <button class="button table_button">اعرف المزيد</button>
+            </dev> {% endcomment %}
+        </dev>
+        <img class="br_line" src="{% static 'start_page/img/br_line.svg' %}">
+    </section>
+
+
+
+    <section class="a3tmad_section">
+        <dev class="row">
+            <dev class="col col-1">
+                <img class="icon" src="{% static 'start_page/img/a3tmad/balady_logo.svg' %}">
+                <h3 class="text">رقم الاعتماد</h3>
+                <h3 class="number">2022000149</h3>
+            </dev>
+            <dev class="col col-2">
+                <img class="icon" src="{% static 'start_page/img/a3tmad/eng_logo.svg' %}">
+                <h3 class="text">رقم الترخيص</h3>
+                <h3 class="number">5100000962</h3>
+            </dev>
+        </dev>
+    </section>
+
+    <section class="google_map_section">
+        <h2 class="time">🗺️8:30AM-12PM, 4:30-8:30PM🗺️</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316.4112103449912!2d39.6514603624554!3d24.42824944050553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbf10430f6d37%3A0x67dc561c1fb32aa4!2z2YXZg9iq2Kgg2KfZhNmF2YfZhtiv2LMg2KfZhNmF2LPYqti02KfYsSDYudio2K_Yp9mE2YXYrdiz2YYg2K7ZhNmK2YQg2LnYqNiv2Ycg2KfZhNi12KfZiti6INmE2YTYp9iz2KrYtNin2LHYp9iqINin2YTZh9mG2K_Ys9mK2Kk!5e1!3m2!1sen!2ssa!4v1646254155266!5m2!1sen!2ssa"
+            width="100%" height="50%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="copy_right_section">
+        جميع الحقوق محفوظة لدى مكتب المستشار عبدالمحسن | 2022
+    </section>
+
+    <section class="fixed_section">
+
+        <a class="call_us" href="tel:966-509511896">
+            <img src="{% static 'start_page/img/call_us_icon.svg' %}" alt="تواصل معنى">
+        </a>
+
     </section>
 </body>
 
