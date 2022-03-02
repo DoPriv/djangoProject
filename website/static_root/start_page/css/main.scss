@@ -2,7 +2,15 @@
 *{
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family: 'general';
+    src: url('General-Light.woff') format('woff');
+  
+  }
+h1{
+    font-family: general;
+    color: white;
+}
 body{
     position: relative;
     z-index: -50;
@@ -33,7 +41,7 @@ body{
         padding: 1vh;
     }
     .row-2{
-        font-family: 'light';
+        font-family: 'general-light';
         color: white;  
     }
     
@@ -65,11 +73,11 @@ body{
         .title{
             margin-top: 0;
 
-            font-family: 'medium';
+            font-family: 'general-medium';
             font-size: 15px;
         }
         .content{
-            font-family: 'light';
+            font-family: 'general-light';
             font-size: 13px;
             padding: 0 .5rem;
             padding-bottom: 30%;
@@ -103,7 +111,7 @@ body{
     background-color: white;
     padding-bottom: 1rem;
     .our_services_title{
-    font-family: 'medium';
+    font-family: 'general-medium';
     text-align: center;}
     overflow: hidden;
     
@@ -133,11 +141,11 @@ body{
             .title{
                 margin-top: 0;
     
-                font-family: 'medium';
+                font-family: 'general-medium';
                 font-size: 15px;
             }
             .content{
-                font-family: 'light';
+                font-family: 'general-light';
                 font-size: 13px;
                 padding: 0 .5rem;
                 padding-bottom: 30%;
@@ -165,7 +173,7 @@ body{
     position: relative;
     background-color: #393838;
     color: white;
-    font-family: 'medium';
+    font-family: 'general-medium';
     
     .row{
         padding: 1rem;
@@ -203,7 +211,7 @@ body{
     .time{
         margin: 0;
         padding: 1rem 0;
-        font-family: 'medium';
+        font-family: 'general-medium';
         color: #393838;
         text-align: center;
     }
@@ -218,7 +226,7 @@ body{
     text-align: center;
     color: white;
     background-color: #03240B;
-    font-family: 'light';
+    font-family: 'general-light';
     font-size: 14px;
     z-index: 2;
 
@@ -231,13 +239,10 @@ body{
     width: 100%;
     .call_us{
         display: block;
-        width: 5rem;
+        width: 4rem;
         margin-left: auto;
-        margin-right: 1rem;
-        text-align: center;
-        img{
-            width: 100%;
-        }    
+        margin-right: .5rem;
+        text-align: center;        
     }
     
 }

@@ -1,0 +1,10 @@
+.button{
+    font-family: 'general-medium';
+    border-radius: 1rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        filter: brightness(90%);
+    }
+}

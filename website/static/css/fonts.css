@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'light';
+    src: url('/static/fonts/General-Light.woff') format('woff');
+  }
+@font-face {
+    font-family: 'regular';
+    src: url('/static/fonts/General-Regular.woff') format('woff');
+  }
+@font-face {
+    font-family: 'medium';
+    src: url('/static/fonts/General-Medium.woff') format('woff');
+  }

@@ -3,6 +3,16 @@
           box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'general';
+  src: url("General-Light.woff") format("woff");
+}
+
+h1 {
+  font-family: general;
+  color: white;
+}
+
 body {
   position: relative;
   z-index: -50;
@@ -45,7 +55,7 @@ body {
 }
 
 .nav_wrapper .row-2 {
-  font-family: 'light';
+  font-family: 'general-light';
   color: white;
 }
 
@@ -73,12 +83,12 @@ body {
 
 .why_us_section .table .title {
   margin-top: 0;
-  font-family: 'medium';
+  font-family: 'general-medium';
   font-size: 15px;
 }
 
 .why_us_section .table .content {
-  font-family: 'light';
+  font-family: 'general-light';
   font-size: 13px;
   padding: 0 .5rem;
   padding-bottom: 30%;
@@ -110,7 +120,7 @@ body {
 }
 
 .our_services_section .our_services_title {
-  font-family: 'medium';
+  font-family: 'general-medium';
   text-align: center;
 }
 
@@ -141,12 +151,12 @@ body {
 
 .our_services_section .services_grid .table .title {
   margin-top: 0;
-  font-family: 'medium';
+  font-family: 'general-medium';
   font-size: 15px;
 }
 
 .our_services_section .services_grid .table .content {
-  font-family: 'light';
+  font-family: 'general-light';
   font-size: 13px;
   padding: 0 .5rem;
   padding-bottom: 30%;
@@ -169,7 +179,7 @@ body {
   position: relative;
   background-color: #393838;
   color: white;
-  font-family: 'medium';
+  font-family: 'general-medium';
 }
 
 .a3tmad_section .row {
@@ -220,7 +230,7 @@ body {
 .google_map_section .time {
   margin: 0;
   padding: 1rem 0;
-  font-family: 'medium';
+  font-family: 'general-medium';
   color: #393838;
   text-align: center;
 }
@@ -234,7 +244,7 @@ body {
   text-align: center;
   color: white;
   background-color: #03240B;
-  font-family: 'light';
+  font-family: 'general-light';
   font-size: 14px;
   z-index: 2;
 }
@@ -247,13 +257,9 @@ body {
 
 .fixed_section .call_us {
   display: block;
-  width: 5rem;
+  width: 4rem;
   margin-left: auto;
-  margin-right: 1rem;
+  margin-right: .5rem;
   text-align: center;
-}
-
-.fixed_section .call_us img {
-  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

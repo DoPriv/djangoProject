@@ -1,0 +1,13 @@
+.button {
+  font-family: 'general-medium';
+  border-radius: 1rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+/*# sourceMappingURL=destrab.css.map */

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{% static 'start_page/css/phone.css' %}">
     <link rel="stylesheet" href="{% static 'start_page/css/xphone.css' %}">
     <link rel="stylesheet" href="{% static 'start_page/css/destrab.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
 </head>
 <header class="nav_wrapper">
     <dev class="row-1">
@@ -19,6 +20,7 @@
     <dev class="row-2">
 
     </dev>
+
 </header>
 
 <body>
@@ -42,7 +44,8 @@
             <h1 class="title">لماذا مكتب المستشار عبدالمحسن؟</h1>
             <h2 class="content">نقدم حلول متميزة بنائا على خبرات
                 سابقة في اكبر شركات العالم</h2>
-            <button class="button table_button">من نحن؟</button>
+            <button class="button table_button" onclick="location.href = '/about_us'" >من نحن؟</button>
+            
         </dev>
     </section>
 
@@ -55,7 +58,7 @@
                 <img class="icon" src="{% static 'start_page/img/our_services/icons/consulting.svg' %}" alt="logo">
                 <h1 class="title">إستشارات هندسية</h1>
                 <h2 class="content">استشارات في العديد من المجالات الهندسية</h2>
-                <button class="button table_button">اعرف المزيد</button>
+                <button class="button table_button" onclick="location.href = '/our_service'">اعرف المزيد</button>
             </dev>
             <dev class="table">
                 <img class="icon" src="{% static 'start_page/img/our_services/icons/supervision.svg' %}" alt="logo">
@@ -72,7 +75,7 @@
             <dev class="table">
                 <img class="icon" src="{% static 'start_page/img/our_services/icons/license.svg' %}" alt="logo">
                 <h1 class="title">إصدار شهادة البناء</h1>
-                <h2 class="content">-</h2>
+                <h2 class="content">idk what to say</h2>
                 <button class="button table_button">اعرف المزيد</button>
             </dev>
             {% comment %} <dev class="table">
