@@ -5,4 +5,9 @@
   border: none;
   cursor: pointer;
 }
+
+.button:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
 /*# sourceMappingURL=destrab.css.map */

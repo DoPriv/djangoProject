@@ -90,7 +90,7 @@ body {
   font-family: 'general-light';
   font-size: 13px;
   padding: 0 .5rem;
-  padding-bottom: 25%;
+  padding-bottom: 30%;
 }
 
 .why_us .table .table_button {
@@ -102,5 +102,18 @@ body {
   bottom: 1rem;
   width: 8rem;
   height: 2rem;
+}
+
+.br_line {
+  display: block;
+  width: 85%;
+  max-width: 600px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.our_services_title {
+  font-family: 'general-medium';
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

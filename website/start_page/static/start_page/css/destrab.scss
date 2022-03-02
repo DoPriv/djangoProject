@@ -4,4 +4,7 @@
     background-color: white;
     border: none;
     cursor: pointer;
+    &:hover{
+        filter: brightness(90%);
+    }
 }
