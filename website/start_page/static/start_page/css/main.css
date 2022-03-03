@@ -45,8 +45,7 @@ body {
 }
 
 .nav_wrapper .row-2 {
-  font-family: 'light';
-  color: white;
+  display: none;
 }
 
 .why_us_section {
@@ -110,6 +109,7 @@ body {
 }
 
 .our_services_section .our_services_title {
+  color: #393838;
   font-family: 'medium';
   text-align: center;
 }

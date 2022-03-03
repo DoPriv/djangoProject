@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مكتب المستشار عبدالمحسن للاستشارات الهندسية</title>
     <link rel="stylesheet" href="{% static 'start_page/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'start_page/css/desktop.css' %}">
     <link rel="stylesheet" href="{% static 'start_page/css/phone.css' %}">
     <link rel="stylesheet" href="{% static 'start_page/css/xphone.css' %}">
     <link rel="stylesheet" href="{% static 'start_page/css/destrab.css' %}">
@@ -18,7 +19,12 @@
         <img class="logo" src="{% static 'start_page/img/background/nav-logo-banner-two-lines.svg' %}">
     </dev>
     <dev class="row-2">
-
+        <dev class="links_wrapper">
+            <a class="link" href="/" class="main_page">الرئيسية</a>
+            <a class="link" href="/our_service" class="main_page">خدماتنا</a>
+            <a class="link" href="/contact_us" class="main_page">تواصل معنا</a>
+        </dev>
+        
     </dev>
 
 </header>
@@ -64,25 +70,25 @@
                 <img class="icon" src="{% static 'start_page/img/our_services/icons/supervision.svg' %}" alt="logo">
                 <h1 class="title">الإشراف الهندسي</h1>
                 <h2 class="content">الإشراف بمختلف اشكالة</h2>
-                <button class="button table_button">اعرف المزيد</button>
+                <button class="button table_button" onclick="location.href = '/our_service'">اعرف المزيد</button>
             </dev>
             <dev class="table">
                 <img class="icon" src="{% static 'start_page/img/our_services/icons/surveyor.svg' %}" alt="logo">
                 <h1 class="title">المساحة</h1>
                 <h2 class="content">العديد من خدمات المساحة</h2>
-                <button class="button table_button">اعرف المزيد</button>
+                <button class="button table_button" onclick="location.href = '/our_service'">اعرف المزيد</button>
             </dev>
             <dev class="table">
                 <img class="icon" src="{% static 'start_page/img/our_services/icons/license.svg' %}" alt="logo">
                 <h1 class="title">إصدار شهادة البناء</h1>
                 <h2 class="content">idk what to say</h2>
-                <button class="button table_button">اعرف المزيد</button>
+                <button class="button table_button" onclick="location.href = '/our_service'">اعرف المزيد</button>
             </dev>
             {% comment %} <dev class="table">
                 <img class="icon" src="{% static 'start_page/img/our_services/icons/consulting.svg' %}" alt="logo">
                 <h1 class="title">إستشارات هندسية</h1>
                 <h2 class="content">استشارات في العديد من المجالات الهندسية</h2>
-                <button class="button table_button">اعرف المزيد</button>
+                <button class="button table_button" onclick="location.href = '/our_service'">اعرف المزيد</button>
             </dev> {% endcomment %}
         </dev>
         <img class="br_line" src="{% static 'start_page/img/br_line.svg' %}">

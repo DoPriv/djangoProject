@@ -11,5 +11,9 @@ def about_us(request):
     return render(request, 'about_us.html')
 
 
+def contact_us(request):
+    return render(request, 'contact_us.html')
+
+
 def our_service(request):
     return render(request, 'our_service_template.html')
